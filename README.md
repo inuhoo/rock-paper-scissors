@@ -8,7 +8,7 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/web-
 
 ----------
 
-For this project I will be creating a simple javascript version of rock-paper-scissors to run in the console.
+For this project I will be creating a simple javascript version of rock-paper-scissors that will run in the console.
 
 ----------
 ----------
@@ -19,14 +19,18 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/web-
 
 ----------
 
- Part two of this project consists of refactoring the code to include an in browser GUI (graphical user interface).
+ Part two of this project consists of refactoring the code to include an in browser GUI (graphical user interface). Instead of being a best of 5 rounds the new code should keep track of each game and announce the first player to win 5 rounds. I will also be adding some extra css to improve the appearance of the game.
+
+ Instructions from the curriculum are as follows:
 
 * ~~Copy your original code into a new file so you don’t lose it.~~
     * **branch created**
 * ~~For now, remove the logic that plays exactly five rounds.~~
     * **removed five round loop**
-* ~~Create three buttons, one for each selection. Add an event listener to the buttons that calls your playRound function with the correct playerSelection every time a button is clicked. ~~
-    **buttons created using images and playRound is called on click**
-* Add a div for displaying results and change all of your console.logs into DOM methods.
-* Display the running score, and announce a winner of the game once one player reaches 5 points.
-* You will likely have to refactor (rework/rewrite) your original code to make it work for this. That’s OK! Reworking old code is an important part of the programmer’s life.
+* ~~Create three buttons, one for each selection. Add an event listener to the buttons that calls your playRound function with the correct playerSelection every time a button is clicked.~~
+    * **buttons created using images and playRound is called on click**
+* ~~Add a div for displaying results and change all of your console.logs into DOM methods.~~
+    * **results div added**
+* ~~Display the running score, and announce a winner of the game once one player reaches 5 points.~~
+    * **running total is display and winner is announced**
+
